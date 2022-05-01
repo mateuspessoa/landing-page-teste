@@ -33,6 +33,12 @@ ul li {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
 .section-1 {
     width: 100%;
     height: 400px;
@@ -74,4 +80,54 @@ ul li {
     font-size: 29px;
     color: white;
     text-shadow: 0.1em 0.1em #333;
+}
+
+.section-3 {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-3 h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.whatsapp {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contatoW {
+    display: flex;
+}
+
+.contatoW img {
+    width: 20px;
+    height: auto;
+    margin-right: 4px;
+}
+
+.contatoW p {
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.email{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.email img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
 }
